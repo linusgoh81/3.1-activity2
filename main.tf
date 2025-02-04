@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "lambda_bucket" {
-  bucket = "ce8-linus"
+  bucket = "ce8-linus-asking-help"
   force_destroy = true
 }
 
